@@ -13,7 +13,7 @@ local CurrentCamera = Workspace.CurrentCamera
 local DaHoodSettings = {
     SilentAim = true,
     AimLock = false,
-    Prediction = 0.148357,
+    Prediction = 0.1229,
     AimLockKeybind = Enum.KeyCode.E
 }
 getgenv().DaHoodSettings = DaHoodSettings
@@ -59,7 +59,7 @@ RunService:BindToRenderStep("AimLock", 0, function()
     end
     end)
 
-    local cframeSpheedhotkeyXd1 = "l" -- toggle key
+    local cframeSpheedhotkeyXd1 = "" -- toggle key
     local mouse = game.Players.LocalPlayer:GetMouse()
     
     
